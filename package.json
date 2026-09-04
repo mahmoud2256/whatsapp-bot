@@ -1,0 +1,22 @@
+{
+  "name": "rose-whatsapp-bot",
+  "version": "2.0.0",
+  "description": "بوت واتساب روز - نسخة خفيفة بدون متصفح (Baileys)",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^9.4.0",
+    "qrcode-terminal": "^0.12.0",
+    "qrcode": "^1.5.3",
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.9.0",
+    "mongo-baileys": "^1.0.1",
+    "uuid": "^9.0.1"
+  }
+}
